@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Css/estilos.css">
+	<link rel="icon" type="text/css" href="Images/Kopal.ico">
+	<!-- DATATABLES -->
+	  <!--  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css"> -->
+	 <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css">
+	<title>Kopal Beatz</title>
+
+	
+</head>
+
+<body class="bg-dark">
+	<div id="banner">
+		<img src="Images/kopalbeatz.jpg" id="img_banner">
+	</div>
+	<center>
+	<div class="nav2">
+		<div class="wrap">
+			<nav>
+				<ul>
+					<a id="pointer" href="Index.html">Inicio</a>
+					<a id="pointer"  href="Beats.html">Beats</a>
+					<a id="pointer"  href="Socials.html">Socials</a>
+					<a id="pointer"  href="https://t.me/KopalBeatz" target="_blank">Telegram</a>
+				</ul>
+			</nav>
+		</div>
+	</div>
+	</center>
+
+		<div class="container">
+		<table id="tablax">
+			<thead>
+				<th>Name</th>
+				<th>Type</th>
+				<th>BPM</th>
+				<th>New / Old</th>
+			</thead>
+		
+			<tbody>
+				<tr id="pointer" onclick="window.location='Beats/Memories.html';">
+					<td>Memories</td>
+					<td>Sad</td>
+					<td>80</td>
+					<td style="color:red;">Beat 11	<b>NEW!!!</b></td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/No_Es_Lo_Mismo.html';">
+					<td>No Es Lo Mismo</td>
+					<td>Sad</td>
+					<td>75</td>
+					<td>Beat 10</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Todo_Termino.html';">
+					<td>Todo Termino</td>
+					<td>Sad</td>
+					<td>72</td>
+					<td>Beat 09</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Soledad.html';">
+					<td>Soledad</td>
+					<td>Sad</td>
+					<td>76</td>
+					<td>Beat 08</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Alone.html';">
+					<td>Alone</td>
+					<td>Sad</td>
+					<td>75</td>
+					<td>Beat 07</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Promesas_Rotas.html';">
+					<td>Promesas Rotas</td>
+					<td>Sad</td>
+					<td>71</td>
+					<td>Beat 06</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Sin_Temor.html';">
+					<td>Sin Temor</td>
+					<td>Malianteo</td>
+					<td>80</td>
+					<td>Beat 05</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Contigo.html';">
+					<td>Contigo</td>
+					<td>Romantic</td>
+					<td>76</td>
+					<td>Beat 04</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Tu_Partida.html';">
+					<td>Tu Partida</td>
+					<td>Sad</td>
+					<td>160</td>
+					<td>Beat 03</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Eres.html';">
+					<td>Eres</td>
+					<td>Romantic</td>
+					<td>140</td>
+					<td>Beat 02</td>
+				</tr>
+				<tr id="pointer" onclick="window.location='Beats/Sin_Ti.html';">
+					<td>Sin Ti</td>
+					<td>Sad</td>
+					<td>130</td>
+					<td>Beat 01</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+
+
+
+	 <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+         <!-- DATATABLES -->
+    <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js">
+    </script>
+     <!-- BOOTSTRAP -->
+    <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('#tablax').DataTable({
+                language: {
+                    processing: "Tratamiento en curso...",
+                    search: "Buscar&nbsp;:",
+                    lengthMenu: "Agrupar de _MENU_ items",
+                    info: "Mostrando Beats del _START_ al _END_ de un total de _TOTAL_ Beats",
+                    infoEmpty: "No existen datos.",
+                    infoFiltered: "(filtrado de _MAX_ elementos en total)",
+                    infoPostFix: "",
+                    loadingRecords: "Cargando...",
+                    zeroRecords: "No se encontraron datos con tu busqueda",
+                    emptyTable: "No hay datos disponibles en la tabla.",
+                    paginate: {
+                        first: "Primero",
+                        previous: "Anterior",
+                        next: "Siguiente",
+                        last: "Ultimo"
+                    },
+                    aria: {
+                        sortAscending: ": active para ordenar la columna en orden ascendente",
+                        sortDescending: ": active para ordenar la columna en orden descendente"
+                    }
+                },
+                scrollY: 400,
+                lengthMenu: [ [10, 25, -1], [10, 25, "All"] ],
+            });
+        });
+    </script>
+
+</body>
+</html>
