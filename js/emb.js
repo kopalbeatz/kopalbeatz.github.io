@@ -1,5 +1,6 @@
 var _0x7289=["\x5D","\x72\x65\x70\x6C\x61\x63\x65","\x5B","\x5B\x3F\x26\x5D","\x3D\x28\x5B\x5E\x26\x23\x5D\x2A\x29","\x73\x65\x61\x72\x63\x68","\x65\x78\x65\x63","","\x20","\x6C\x69\x76\x65"];function getParameterByName(_0x3de8x2){_0x3de8x2= _0x3de8x2[_0x7289[1]](/[\[]/,_0x7289[2])[_0x7289[1]](/[\]]/,_0x7289[0]);var _0x3de8x3= new RegExp(_0x7289[3]+ _0x3de8x2+ _0x7289[4]),_0x3de8x4=_0x3de8x3[_0x7289[6]](location[_0x7289[5]]);return _0x3de8x4=== null?_0x7289[7]:decodeURIComponent(_0x3de8x4[1][_0x7289[1]](/\+/g,_0x7289[8]))}var r=getParameterByName(_0x7289[9])
     var iframeURLs = {
+        'home':{v: 'aHR0cHM6Ly93d3cubWV4aXR2LnRrL2FnZW5kYS8=',},
         '1':{v: 'aHR0cHM6Ly9lc3BudjIub25saW5lL2xpdmUvZW1iZWQucGhwP2NoPWVzNA==',},
         '2':{v: '#',},
         '3':{v: '#',},
@@ -50,7 +51,6 @@ var _0x7289=["\x5D","\x72\x65\x70\x6C\x61\x63\x65","\x5B","\x5B\x3F\x26\x5D","\x
         '48':{v: '#',},
         '49':{v: '#',},
         '50':{v: '#',},
-        '0':{v: 'aHR0cHM6Ly93d3cubWV4aXR2LnRrL2FnZW5kYS8=',},
         };
 
     
