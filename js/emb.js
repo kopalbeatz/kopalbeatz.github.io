@@ -50,6 +50,16 @@ var _0x7289=["\x5D","\x72\x65\x70\x6C\x61\x63\x65","\x5B","\x5B\x3F\x26\x5D","\x
         '48':{v: '#',},
         '49':{v: '#',},
         '50':{v: '#',},
+        'vx1':{v: 'aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL3Z4Lmh0bWw/aWQ9TVhGMDFBMjNNWDI5',},
+        'vx2':{v: '#',},
+        'vx3':{v: '#',},
+        'vx4':{v: '#',},
+        'vx5':{v: '#',},
+        'vx6':{v: '#',},
+        'vx7':{v: '#',},
+        'vx8':{v: '#',},
+        'vx9':{v: '#',},
+        'vx10':{v: '#',},
         };
 
     
