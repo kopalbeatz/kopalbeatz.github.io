@@ -1,7 +1,7 @@
 var _0x7289=["\x5D","\x72\x65\x70\x6C\x61\x63\x65","\x5B","\x5B\x3F\x26\x5D","\x3D\x28\x5B\x5E\x26\x23\x5D\x2A\x29","\x73\x65\x61\x72\x63\x68","\x65\x78\x65\x63","","\x20","\x6C\x69\x76\x65"];function getParameterByName(_0x3de8x2){_0x3de8x2= _0x3de8x2[_0x7289[1]](/[\[]/,_0x7289[2])[_0x7289[1]](/[\]]/,_0x7289[0]);var _0x3de8x3= new RegExp(_0x7289[3]+ _0x3de8x2+ _0x7289[4]),_0x3de8x4=_0x3de8x3[_0x7289[6]](location[_0x7289[5]]);return _0x3de8x4=== null?_0x7289[7]:decodeURIComponent(_0x3de8x4[1][_0x7289[1]](/\+/g,_0x7289[8]))}var r=getParameterByName(_0x7289[9])
     var iframeURLs = {
-        '1':{v: '#',},
-        '2':{v: '#',},
+        '1':{v: 'aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL21heC5odG1sP2dldD1hSFIwY0hNNkx5OXNhWFpsTG1ObUxteGhkR0Z0TG1oaWIyMWhlR05rYmk1amIyMHZZMjFoWmk5c2FYWmxMekl3TXpFMk1UQXZaR0Z6YUM5alpXNWpMek0wT1RVd0wyMWhjM1JsY2k1dGNHUT0ma2V5PU1ERXdNV0kwT1RJelptVXpNbUl5TlRVek4yVm1Zak16TW1SalltSTJZamM9JmtleTI9TUdOa09EUTNPRFZsWVRCaU56bGlOREF6WlRBM09ERTRZalZtTUdaaE16ST0=',},
+        '2':{v: 'aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL3N0ci5odG1sP2dldD1odHRwczovL2xpdmUtZnRjLW5hLXNvdXRoLTIubWVkaWEuc3Rhcm90dC5jb20vZ3J1MS9xYjAxL3N0YXJwbHVzL2V2ZW50LzIwMjMvMDgvMTYvTWFuY2hlc3Rlcl9DaXR5X3ZzX1NldmlsbF8yMDIzMDgxNl8xNjkyMjA1MjI5MDE5L2N0ci1hbGwtY29tcGxldGUubTN1OCZpbWc9aHR0cHM6Ly9wcm9kLXJpcGN1dC1kZWxpdmVyeS5kaXNuZXktcGx1cy5uZXQvdjEvdmFyaWFudC9zdGFyLzFDQjQzRTVFRUM0Qzc2OEIxRTZFNjNCOTJFOUMzREMxNDE5MTc5QjZCRTc3RUFCRkM2QkQ2NEZBQTgwRjk1Qjgvc2NhbGU/d2lkdGg9MTkyMCZhc3BlY3RSYXRpbz0xLjc4JmZvcm1hdD1qcGVnJmtleT1jYWYwMzY2OGY3MGI0NTU3OThiZWNlYmFiYWZjMTRkMSZrZXkyPTRjMDMzNjc3ZjEwNGYxM2M3YjNlOWQ3ZjkyY2U5MDQ3',},
         '3':{v: '#',},
         '4':{v: '#',},
         '5':{v: '#',},
@@ -287,6 +287,7 @@ var _0x7289=["\x5D","\x72\x65\x70\x6C\x61\x63\x65","\x5B","\x5B\x3F\x26\x5D","\x
         'afizzext':{v: 'aHR0cHM6Ly9lbWJlZC50ZWxleHRyZW1hLmNvbS9lbWJlZDIvYWZpenppb25hZG9zLmh0bWw=',},
         'fspext':{v: 'aHR0cHM6Ly9lbWJlZC50ZWxleHRyZW1hLmNvbS9lbWJlZDIvZm94c3BvcnRzcHJlbWl1bS5odG1s',},
         'sbtbr':{v: 'aHR0cHM6Ly9kdW1wZXItdHJ1ZS5jb20vZGFzaGR1bXBlci5waHA/dXJsPWFIUjBjSE02THk5a2RIWnZkSFF0YW1KakxtRnJZVzFoYVhwbFpDNXVaWFF2WkdGemFGOXNhWFpsWHpBd016VXZiV0Z1YVdabGMzUXViWEJrJmsxPU0yRmtNMlJqWVRFd016RTROVGt6TkdGalptWTNZVEJsT1RBd01HTXhNVEk9JmsyPVpHVTNZemM1TXpCaFlUZzFNRFE1WmpkallqZGlaV1prWW1Oa1l6VTBaR1E9',},
+        'teletik':{v: 'aHR0cHM6Ly9tZXhpLXR2LmJsb2dzcG90LmNvbS9wL2hzbC5odG1sP2dldD1hSFIwY0hNNkx5OXRObWRrWVhJMVpYbHVPVE10YUd4ekxXeHBkbVV1TldObGJuUnpZMlJ1TG1OdmJTOVRkSEpsWVcxVVpXeGxkR2xqWVM4M00yRmhZelJrWXpobU1tSmhZakpoTldRNU5USTFNREF4WXpRd01XRm1PQzV6WkhBdmNHeGhlV3hwYzNRdWJUTjFPQT09',},
     };
 
     
