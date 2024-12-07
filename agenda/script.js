@@ -49,7 +49,7 @@ function generateEventHTML(event) {
 }
 
 // Cargar y renderizar los eventos desde eventos.json
-fetch('https://aguilaazulcrema.github.io/json/eventos.json')
+fetch('eventos.json')
     .then(response => {
         if (!response.ok) {
             throw new Error(`Error al cargar el archivo JSON: ${response.statusText}`);
